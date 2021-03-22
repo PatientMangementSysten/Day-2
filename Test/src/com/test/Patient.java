@@ -10,6 +10,8 @@ public class Patient {
 	
 	private int contactNumber;
 	
+	
+	
 	private String allgeris;
 
 	public String getAllgeris() {
@@ -52,4 +54,8 @@ public class Patient {
 		this.contactNumber = contactNumber;
 	}
 
+	public static void main(String[] args) {
+		System.out.println("Patient.main()");
+		System.out.println("Patient.main()");
+	}
 }
